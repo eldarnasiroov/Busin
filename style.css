@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  max-width: 1500px;
+  height: 600px;
+  background-color: #0A092C;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header ._container {
+  margin: 0px auto;
+  padding: 25px 0;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ._container ._logo_container {
+  margin-right: 50px;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ._container ._logo_container ._logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.875rem;
+  line-height: 58px;
+  color: #f5f5f5;
+}
+
+.header ._container ._logo_container ._logo:hover {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.header ._container ._navigation {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: -0.02em;
+  color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ._container ._navigation ._items {
+  margin: 0 0.625rem;
+}
+
+.header ._container ._navigation ._items:hover {
+  cursor: pointer;
+  color: #ff9900;
+}
+
+.header ._container ._navigation ._search_icon_block {
+  margin-left: 150px;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ._container ._navigation ._search_icon_block ._search_icon {
+  width: 80%;
+  height: 80%;
+}
+
+.header ._container ._navigation ._search_icon_block ._search_icon:hover {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.header ._container ._burger_menu_block {
+  display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  .header ._container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header ._container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .header ._container {
+    padding: 0px 0;
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header ._container ._logo_container {
+    margin: 0;
+  }
+  .header ._container ._navigation ._search_icon_block {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header ._container {
+    padding: 0px 0;
+    width: 90%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header ._container ._logo_container {
+    width: 100px;
+  }
+  .header ._container ._navigation {
+    display: none;
+  }
+  .header ._container ._burger_menu_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 30px;
+    height: 25px;
+  }
+  .header ._container ._burger_menu_block ._burger_menu {
+    height: 90%;
+    width: 90%;
+  }
+  .header ._container ._burger_menu_block ._burger_menu:hover {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
