@@ -1,0 +1,23 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="302" width="302" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Uploaded to SVGRepo https://www.svgrepo.com -->
+  <desc transform="matrix(12.755101797532063,0,0,12.755101797532063,0,0) ">Created with Sketch.</desc>
+  <g stroke="null" id="svg_10">
+   <g transform="matrix(13.391372379091397,0,0,13.391372379091397,-1.0529946103009462,-1.6390090146279377) " fill-rule="evenodd" fill="none" id="svg_6">
+    <g stroke="null" fill-rule="nonzero" fill="#212121" id="svg_7">
+     <path stroke="null" id="svg_8" d="m12.983073,1.613442c-0.3928,-0.38818 -1.026,-0.3844 -1.4142,0.00845c-0.3881,0.39285 -0.3844,1.026 0.0085,1.41419l7.3762,7.28868l-17.6753,0c-0.55228,0 -1,0.4477 -1,1c0,0.5523 0.44772,1 1,1l17.673,0l-7.3739,7.2864c-0.3929,0.3882 -0.3966,1.0214 -0.0085,1.4142c0.3882,0.3929 1.0214,0.3966 1.4142,0.0085l8.927,-8.8211c0.4952,-0.4893 0.4952,-1.2889 0,-1.7783l-8.927,-8.82102z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

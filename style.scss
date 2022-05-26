@@ -113,8 +113,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 70px;
+    min-width: 250px;
+    min-height: 70px;
     border: 1px solid white;
     border-radius: 20px;
     margin-top: 25px;
@@ -122,14 +122,12 @@
     transition: all 0.3s;
     &:hover {
       cursor: pointer;
-      background-color: rgba(0, 0, 0, 0.2);
-      width: 250px;
-      height: 70px;
+      background-color: rgba(0, 0, 0, 0.3);
       color: white;
     }
     .read_more_text {
       text-transform: uppercase;
-      font-weight: 600;
+      font-weight: 800;
       padding: 0 25px;
     }
     .right_arrow {
@@ -162,7 +160,7 @@
       font-size: 1rem;
       line-height: 1.1875rem;
       letter-spacing: -0.02em;
-      color: #EFC739;
+      color: #efc739;
       text-align: center;
       padding: 10px;
     }
@@ -179,7 +177,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      .block_items_background{
+      .block_items_background {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -189,11 +187,11 @@
         margin: 10px 10px;
         color: white;
         font-family: "Inter";
-        transition: all .3s;
+        transition: all 0.3s;
         &:hover {
           cursor: pointer;
-          background-color: #0A1259;
-          color: #EFC739;
+          background-color: #0a1259;
+          color: #efc739;
         }
         .block_item {
           display: flex;
@@ -215,10 +213,37 @@
           .block_item_text {
             font-style: normal;
             font-weight: 400;
-            font-size: .8rem;
+            font-size: 0.8rem;
             text-align: center;
           }
         }
+      }
+    }
+    .lets_talk_button {
+      font-family: "Inter";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 250px;
+      min-height: 70px;
+      background-color: #efc739;
+      border-radius: 20px;
+      margin-top: 35px;
+      color: black;
+      align-self: center;
+      transition: all 0.3s;
+      &:hover {
+        cursor: pointer;
+        background-color: #cea307;
+      }
+      .lets_talk_text {
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 0 25px;
+      }
+      .right_arrow_black {
+        width: 25px;
+        height: 25px;
       }
     }
   }
@@ -270,7 +295,7 @@
     }
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 530px) {
   .header {
     ._header_container {
       padding: 0px 0;

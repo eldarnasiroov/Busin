@@ -178,8 +178,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 250px;
-  height: 70px;
+  min-width: 250px;
+  min-height: 70px;
   border: 1px solid white;
   border-radius: 20px;
   margin-top: 25px;
@@ -190,15 +190,13 @@
 
 .header_section .read_more_button:hover {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 250px;
-  height: 70px;
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
 
 .header_section .read_more_button .read_more_text {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
   padding: 0 25px;
 }
 
@@ -246,7 +244,7 @@
   font-size: 1rem;
   line-height: 1.1875rem;
   letter-spacing: -0.02em;
-  color: #EFC739;
+  color: #efc739;
   text-align: center;
   padding: 10px;
 }
@@ -288,14 +286,14 @@
   margin: 10px 10px;
   color: white;
   font-family: "Inter";
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .main .main_section_1 .section_1_blocks .block_items_background:hover {
   cursor: pointer;
-  background-color: #0A1259;
-  color: #EFC739;
+  background-color: #0a1259;
+  color: #efc739;
 }
 
 .main .main_section_1 .section_1_blocks .block_items_background .block_item {
@@ -331,8 +329,47 @@
 .main .main_section_1 .section_1_blocks .block_items_background .block_item .block_item_text {
   font-style: normal;
   font-weight: 400;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
+}
+
+.main .main_section_1 .lets_talk_button {
+  font-family: "Inter";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 250px;
+  min-height: 70px;
+  background-color: #efc739;
+  border-radius: 20px;
+  margin-top: 35px;
+  color: black;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.main .main_section_1 .lets_talk_button:hover {
+  cursor: pointer;
+  background-color: #cea307;
+}
+
+.main .main_section_1 .lets_talk_button .lets_talk_text {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0 25px;
+}
+
+.main .main_section_1 .lets_talk_button .right_arrow_black {
+  width: 25px;
+  height: 25px;
 }
 
 @media screen and (max-width: 1150px) {
@@ -383,7 +420,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 530px) {
   .header ._header_container {
     padding: 0px 0;
     width: 90%;
