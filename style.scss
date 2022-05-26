@@ -18,7 +18,7 @@
   ._header_container {
     margin: 0px auto;
     padding: 25px 0;
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,7 +53,7 @@
       display: flex;
       align-items: center;
       ._items {
-        margin: 0 0.625rem;
+        margin: 0 1rem;
         transition: all 0.2s;
         &:hover {
           cursor: pointer;
@@ -129,11 +129,97 @@
     }
     .read_more_text {
       text-transform: uppercase;
+      font-weight: 600;
       padding: 0 25px;
     }
     .right_arrow {
       width: 25px;
       height: 25px;
+    }
+  }
+}
+
+// MAIN
+
+.main {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 800px;
+  background-color: #0a092c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .main_section_1 {
+    margin-top: 70px;
+    font-family: "Inter";
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .section_1_text {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.1875rem;
+      letter-spacing: -0.02em;
+      color: #EFC739;
+      text-align: center;
+      padding: 10px;
+    }
+    .section_1_title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2rem;
+      letter-spacing: -0.04em;
+      text-align: center;
+      color: white;
+    }
+    .section_1_blocks {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .block_items_background{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 150px;
+        background-color: #0a1684;
+        margin: 10px 10px;
+        color: white;
+        font-family: "Inter";
+        transition: all .3s;
+        &:hover {
+          cursor: pointer;
+          background-color: #0A1259;
+          color: #EFC739;
+        }
+        .block_item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          width: 90%;
+          height: 80%;
+          .block_item_icon {
+            width: 30px;
+            height: 30px;
+          }
+          .block_item_title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+          }
+          .block_item_text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: .8rem;
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }
@@ -178,6 +264,9 @@
     .header_section_title {
       font-size: 2.375rem;
       line-height: 2.125rem;
+    }
+    .header_section_text {
+      width: 70%;
     }
   }
 }

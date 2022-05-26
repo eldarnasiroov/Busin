@@ -29,7 +29,7 @@
 .header ._header_container {
   margin: 0px auto;
   padding: 25px 0;
-  width: 60%;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +88,7 @@
 }
 
 .header ._header_container ._navigation ._items {
-  margin: 0 0.625rem;
+  margin: 0 1rem;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -198,12 +198,141 @@
 
 .header_section .read_more_button .read_more_text {
   text-transform: uppercase;
+  font-weight: 600;
   padding: 0 25px;
 }
 
 .header_section .read_more_button .right_arrow {
   width: 25px;
   height: 25px;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 800px;
+  background-color: #0a092c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main_section_1 {
+  margin-top: 70px;
+  font-family: "Inter";
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main_section_1 .section_1_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: -0.02em;
+  color: #EFC739;
+  text-align: center;
+  padding: 10px;
+}
+
+.main .main_section_1 .section_1_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: white;
+}
+
+.main .main_section_1 .section_1_blocks {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .main_section_1 .section_1_blocks .block_items_background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 150px;
+  background-color: #0a1684;
+  margin: 10px 10px;
+  color: white;
+  font-family: "Inter";
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.main .main_section_1 .section_1_blocks .block_items_background:hover {
+  cursor: pointer;
+  background-color: #0A1259;
+  color: #EFC739;
+}
+
+.main .main_section_1 .section_1_blocks .block_items_background .block_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: 80%;
+}
+
+.main .main_section_1 .section_1_blocks .block_items_background .block_item .block_item_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.main .main_section_1 .section_1_blocks .block_items_background .block_item .block_item_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.main .main_section_1 .section_1_blocks .block_items_background .block_item .block_item_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: .8rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 1150px) {
@@ -248,6 +377,9 @@
   .header_section .header_section_title {
     font-size: 2.375rem;
     line-height: 2.125rem;
+  }
+  .header_section .header_section_text {
+    width: 70%;
   }
 }
 
