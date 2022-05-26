@@ -380,12 +380,6 @@
 
 @media screen and (max-width: 900px) {
   .header ._header_container {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 790px) {
-  .header ._header_container {
     padding: 0px 0;
     width: 90%;
     -webkit-box-orient: vertical;

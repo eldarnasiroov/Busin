@@ -261,13 +261,6 @@
 @media screen and (max-width: 900px) {
   .header {
     ._header_container {
-      width: 90%;
-    }
-  }
-}
-@media screen and (max-width: 790px) {
-  .header {
-    ._header_container {
       padding: 0px 0;
       width: 90%;
       flex-direction: column;
@@ -284,6 +277,25 @@
     }
   }
 }
+// @media screen and (max-width: 790px) {
+//   .header {
+//     ._header_container {
+//       padding: 0px 0;
+//       width: 90%;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       ._logo_container {
+//         margin: 0;
+//       }
+//       ._navigation {
+//         ._search_icon_block {
+//           margin-left: 20px;
+//         }
+//       }
+//     }
+//   }
+// }
 @media screen and (max-width: 690px) {
   .header_section {
     width: 90%;
