@@ -353,7 +353,7 @@
         justify-content: center;
         align-items: center;
         width: 50%;
-        height: 280px;
+        height: 300px;
         &_image {
           width: 90%;
           height: 90%;
@@ -366,6 +366,64 @@
           }
         }
       }
+    }
+  }
+  &_section_4 {
+    margin-top: 70px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &_block {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      &_card {
+        margin: 20px 0;
+        width: 250px;
+        height: 400px;
+        background-color:#0a1259;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-top: 50px;
+        transition: all .3s;
+        &:hover {
+          cursor: pointer;
+          background-color:#0a1684;
+        }
+        &_case {
+          width: 90%;
+          height: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          &_list {
+            .main_section_1_blocks_background_item_text {
+              color: white;
+            }
+            &_item {
+              list-style-type: none;
+              display: flex;
+              align-items: center;
+              margin: 10px 0;
+              &_icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 7px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .header_section_read_more {
+      min-width: 180px;
+      min-height: 50px;
     }
   }
 }
@@ -403,8 +461,8 @@
   }
   .main_section_3_block_right{
     min-width: 300px;
-    max-width: 310px;
-    max-height: 200px;
+    max-width: 320px;
+    max-height: 250px;
   }
   .main_section_3_block_right_image {
     min-width: 100%;
@@ -426,6 +484,17 @@
           margin-left: 20px;
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 750px){
+  .main_section_4_block {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &_card {
+      margin: 0;
+      padding: 0;
     }
   }
 }
